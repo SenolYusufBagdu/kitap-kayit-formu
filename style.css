@@ -1,0 +1,100 @@
+.tablo {
+  width: 70%;
+  margin-left: 250px;
+
+  background-image: linear-gradient(
+    rgba(222, 229, 231, 0.466),
+    rgb(109, 221, 214)
+  );
+}
+
+.kitap0 {
+  display: inline-block;
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 20px;
+  padding: 42px;
+  background-image: linear-gradient(
+    rgba(222, 229, 231, 0.466),
+    rgb(120, 240, 232)
+  );
+  border-radius: 10px;
+  padding: 15px;
+}
+td,
+th {
+  padding: 20px;
+  border: none;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.gonder {
+  padding: 8px;
+
+  color: black;
+  background-color: #fedfd4;
+  border-radius: 10px;
+  margin-left: 1110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1 {
+  text-align: center;
+
+  margin-left: 10px;
+  font-size: 50px;
+  font-style: inherit;
+  color: #d68061;
+}
+.ara {
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 10px;
+  border-color: black;
+}
+select {
+  margin-left: 7px;
+  border-radius: 10px;
+  padding: 5px;
+  display: inline-block;
+
+  background-color: #fedfd4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.isbn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(rgba(222, 229, 231, 0), rgb(77, 250, 238));
+  color: #41005f;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon {
+  display: inline-block;
+  margin-left: 5px;
+}
+body {
+  background-image: url(https://media.istockphoto.com/id/1126130554/tr/foto%C4%9Fraf/eski-pastel-mavi-arka-plan-%C3%BCzerinde-renkli-kapakl%C4%B1-kitaplar-sat%C4%B1r-e%C4%9Fitim-kavram%C4%B1-farkl%C4%B1.jpg?b=1&s=612x612&w=0&k=20&c=cM7d-eRWmQBh4Hpk-sXjlO1eCSYlzRdrdDQFAgzg_TY=);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}

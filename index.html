@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kitap Ekleme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="bookform">Kitap ekle</h1>
+    <div></div>
+    <select name="turSec" id="Tur">
+      <option>TUR1</option>
+      <option>TUR2</option>
+      <input type="text" class="ara" style="width: 150px" placeholder="ara.." />
+    </select>
+    <div></div>
+    <form>
+      <input type="text" name="bookName" id="kitap1" class="kitap0" placeholder="kitap ismi" required />
+      <div></div>
+      <input type="text" class="kitap0" placeholder="yazar" required />
+      <div></div>
+      <input type="text" class="kitap0" placeholder="ISBN" required />
+      <div></div>
+      <button type="submit" class="gonder">kitap ekle</button>
+    </form>
+    <table class="tablo" border="3">
+      <thead>
+        <tr>
+          <th>İSİM</th>
+          <th>YAZAR</th>
+          <th>TÜR</th>
+          <th>ISBN</th>
+        </tr>
+      </thead>
+      <tbody id="book"></tbody>
+    </table>
+    <script src="test.js"></script>
+  </body>
+</html>
